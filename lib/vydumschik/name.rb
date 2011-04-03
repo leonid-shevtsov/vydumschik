@@ -2,7 +2,7 @@ require 'yaml'
 
 module Vydumschik
   module Name
-    def self.name(gender=nil)
+    def self.first_name(gender=nil)
       gender ||= random_gender
       gender == :female ? data[:female][rand data[:female].length] : data[:male][rand data[:male].length][:name]
     end
@@ -22,7 +22,7 @@ module Vydumschik
 
     def self.full_name(gender=nil)
       gender ||= random_gender
-      [surname(gender), name(gender), middle_name(gender)].join(' ')
+      [surname(gender), first_name(gender), middle_name(gender)].join(' ')
     end
 
     def self.data
