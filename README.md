@@ -54,4 +54,4 @@ This gem generates fake data for database population in Russian. It probably won
     анаро совизоцюч деке есе дажочи. Екечовено лета рак оня онал."
 
 
-\&copy; 2011 [Leonid Shevtsov](http://leonid.shevtsov.me)
+(c) 2011 [Leonid Shevtsov](http://leonid.shevtsov.me)
