@@ -49,7 +49,7 @@ module Vydumschik
       "#{street[:name]}, #{apt}"
     end
 
-    private_class_method :data
+    private
 
     def self.data
       @data ||= YAML.load_file(File.expand_path('../../../data/addresses.yml', __FILE__))

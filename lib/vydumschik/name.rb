@@ -32,7 +32,7 @@ module Vydumschik
       [surname(gender), first_name(gender), middle_name(gender)].join(' ')
     end
 
-    private_class_method :data, :random_gender
+    private
 
     def self.data
       @data ||= YAML.load_file(File.expand_path('../../../data/names.yml', __FILE__))
