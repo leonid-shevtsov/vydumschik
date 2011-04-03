@@ -250,7 +250,6 @@
   :name: !binary |
     0YPQuy4g0JzQuNGH0YPRgNC40L3QsA==
 
-- 
 - :type: :street
   :count: 1208
   :name: !binary |
@@ -501,7 +500,6 @@
   :name: !binary |
     0YPQuy4g0JzQsNC50YHQutCw0Y8=
 
-- 
 - :type: :street
   :count: 598
   :name: !binary |
@@ -752,7 +750,6 @@
   :name: !binary |
     0YPQuy4g0KTQsNCx0YDQuNGH0L3QsNGP
 
-- 
 - :type: :street
   :count: 402
   :name: !binary |
@@ -1003,7 +1000,6 @@
   :name: !binary |
     0L/QtdGALiDQl9Cw0L/QsNC00L3Ri9C5
 
-- 
 - :type: :alley
   :count: 288
   :name: !binary |
@@ -1254,7 +1250,6 @@
   :name: !binary |
     0L/QtdGALiDQodC+0LLRhdC+0LfQvdGL0Lk=
 
-- 
 - :type: :street
   :count: 216
   :name: !binary |
@@ -1505,7 +1500,6 @@
   :name: !binary |
     0YPQuy4g0JPQtdC+0LvQvtCz0L7Qsg==
 
-- 
 - :type: :alley
   :count: 173
   :name: !binary |
@@ -1756,7 +1750,6 @@
   :name: !binary |
     0YPQuy4g0KXQsNC70YLRg9GA0LjQvdCw
 
-- 
 - :type: :street
   :count: 147
   :name: !binary |
@@ -2007,7 +2000,6 @@
   :name: !binary |
     0YPQuy4g0J7RgdC10L3QvdGP0Y8=
 
-- 
 - :type: :alley
   :count: 126
   :name: !binary |
@@ -2258,7 +2250,6 @@
   :name: !binary |
     0YPQuy4gOSDQr9C90LLQsNGA0Y8=
 
-- 
 - :type: :street
   :count: 107
   :name: !binary |
@@ -2509,7 +2500,6 @@
   :name: !binary |
     0YPQuy4g0JrQsNC80YHQutCw0Y8=
 
-- 
 - :type: :street
   :count: 95
   :name: !binary |
@@ -2760,7 +2750,6 @@
   :name: !binary |
     0L/QtdGALiDQqNC10LLRh9C10L3QutC+
 
-- 
 - :type: :street
   :count: 83
   :name: !binary |
@@ -3011,7 +3000,6 @@
   :name: !binary |
     0YPQuy4gOC3QtSDQnNCw0YDRgtCw
 
-- 
 - :type: :street
   :count: 74
   :name: !binary |
@@ -3262,7 +3250,6 @@
   :name: !binary |
     0YPQuy4g0J3QvtCy0L7RgdC40LHQuNGA0YHQutCw0Y8=
 
-- 
 - :type: :street
   :count: 68
   :name: !binary |
@@ -3513,7 +3500,6 @@
   :name: !binary |
     0YPQuy4g0J/QtdGC0YDQvtCy0LA=
 
-- 
 - :type: :alley
   :count: 61
   :name: !binary |
@@ -3764,7 +3750,6 @@
   :name: !binary |
     0YPQuy4g0JQu0JHQtdC00L3QvtCz0L4=
 
-- 
 - :type: :alley
   :count: 57
   :name: !binary |
@@ -4015,7 +4000,6 @@
   :name: !binary |
     0YPQuy4gMS3Qs9C+INCc0LDRjw==
 
-- 
 - :type: :street
   :count: 53
   :name: !binary |
@@ -4266,7 +4250,6 @@
   :name: !binary |
     0L/QtdGALiDQktC+0LvQvtC00LDRgNGB0LrQvtCz0L4=
 
-- 
 - :type: :street
   :count: 49
   :name: !binary |
@@ -4518,7 +4501,6 @@
   :name: !binary |
     0YPQuy4g0J/RgNC40YHRgtCw0L3RgdC60LDRjw==
 
-- 
 - :type: :alley
   :count: 46
   :name: !binary |
@@ -4769,7 +4751,6 @@
   :name: !binary |
     0YPQuy4g0J/QvtC70LfRg9C90L7QstCw
 
-- 
 - :type: :street
   :count: 42
   :name: !binary |
@@ -5045,4 +5026,3 @@
   :name: !binary |
     0L/RgC4g0KHQtdCy0LXRgNC90YvQuQ==
 
-- 
