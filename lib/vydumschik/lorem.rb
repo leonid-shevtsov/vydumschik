@@ -70,7 +70,7 @@ module Vydumschik
       sentences.join(' ')
     end
 
-    private_class_method :random_length, capitalize_ru
+    private_class_method :random_length, :capitalize_ru
 
     # Random value based on limits
     def self.random_length(limits)

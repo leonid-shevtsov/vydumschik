@@ -11,6 +11,8 @@ This gem generates fake data for database population in Russian. It probably won
     gem install vydumschik
 
 ## Имена
+  
+    > require 'vydumschik'
 
     > Vydumschik::Name.first_name
     "Филипп"
