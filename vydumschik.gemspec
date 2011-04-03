@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Leonid Shevtsov"]
   s.email       = ["leonid@shevtsov.me"]
   s.homepage    = ""
-  s.summary     = %q{A fake data library (Vydumschik is russian for "inventor"}
+  s.summary     = %q{A fake data library (Vydumschik is russian for "inventor")}
   s.description = %q{Vydumschik creates fake Cyrillic names, surnames, full names, and lipsum-like text}
 
   s.rubyforge_project = "vydumschik"
