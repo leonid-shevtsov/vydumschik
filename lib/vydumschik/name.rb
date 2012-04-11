@@ -27,7 +27,7 @@ module Vydumschik
       surname += 'а' if gender==:female
       surname
     end
-    
+
     # Random full name - surname, first name and middle name (gender = :male/:female/nil for random)
     def self.full_name(gender=nil)
       gender ||= random_gender
@@ -37,11 +37,25 @@ module Vydumschik
     private
 
     def self.data
-      @data ||= YAML.load_file(File.expand_path('../../../data/names.yml', __FILE__))
+      unless @data
+        @data = YAML.load_file(File.expand_path('../../../data/names.yml', __FILE__))
+        encode_data_to_utf8 if RUBY_VERSION >= '1.9'
+      end
+      @data
     end
 
     def self.random_gender
       rand>0.5 ? :female : :male
+    end
+
+    def self.encode_data_to_utf8
+      @data[:male].each do |s|
+        s[:male_middle].force_encoding('utf-8')
+        s[:female_middle].force_encoding('utf-8')
+        s[:name].force_encoding('utf-8')
+      end
+      @data[:female].each {|s| s.force_encoding('utf-8') }
+      @data[:surnames].each {|s| s.force_encoding('utf-8') }
     end
   end
 end

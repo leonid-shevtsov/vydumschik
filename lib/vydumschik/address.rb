@@ -10,14 +10,14 @@ module Vydumschik
     # Maximum number of apartments in building
     MAX_APT = 100
 
-    # Maximum number of buildings for different types of streets 
+    # Maximum number of buildings for different types of streets
     BUILDING_LIMITS = {:street => 50, :alley => 10, :avenue => 120, :square => 10, :other => 20}
 
     # Probability of building without apartments
-    HOUSE_PROBABILITY = 0.2 
+    HOUSE_PROBABILITY = 0.2
 
     # Probability of building number having a  modifier
-    MODIFIER_PROBABILITY = 0.05 
+    MODIFIER_PROBABILITY = 0.05
 
     # Building number modifiers
     BUILDING_MODIFIERS = %w(а б в г д)
@@ -54,8 +54,15 @@ module Vydumschik
     private
 
     def self.data
-      @data ||= YAML.load_file(File.expand_path('../../../data/addresses.yml', __FILE__))
+      unless @data
+        @data = YAML.load_file(File.expand_path('../../../data/addresses.yml', __FILE__))
+        encode_data_to_utf8 if RUBY_VERSION >= '1.9'
+      end
+      @data
+    end
+
+    def self.encode_data_to_utf8
+      @data[:streets].each {|s| s[:name].force_encoding('utf-8') }
     end
   end
 end
-
