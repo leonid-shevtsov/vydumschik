@@ -1,4 +1,4 @@
-# Vydumschik (Выдумщик)
+# Vydumschik (Выдумщик) [![Travis CI status](https://secure.travis-ci.org/leonid-shevtsov/vydumschik.png)](http://travis-ci.org/leonid-shevtsov/vydumschik)
 
 This gem generates fake data for database population in Russian. It probably won't be of any use to you if you don't know the language.
 
@@ -11,7 +11,7 @@ This gem generates fake data for database population in Russian. It probably won
     gem install vydumschik
 
 ## Имена
-  
+
     > require 'vydumschik'
 
     > Vydumschik::Name.first_name
@@ -49,10 +49,10 @@ This gem generates fake data for database population in Russian. It probably won
     "Инекуле тято авитудаз еде агар."
 
     > Vydumschik::Lorem.paragraph
-    "Орэнет емех рахетик копорун хетег динава. Оте балале утир лелунака азуло 
-    илувап. Татиройы отедечу ыжа омотокях мизота. Исяр одокыдика оненен итотип 
-    осякелоза ув онежорес ресовинон. Уто ате обю иро авушытяса енесета ран 
-    конекесуг омат. Хованово диномиг лодер ивен косе еламалип са тин. Ойон 
+    "Орэнет емех рахетик копорун хетег динава. Оте балале утир лелунака азуло
+    илувап. Татиройы отедечу ыжа омотокях мизота. Исяр одокыдика оненен итотип
+    осякелоза ув онежорес ресовинон. Уто ате обю иро авушытяса енесета ран
+    конекесуг омат. Хованово диномиг лодер ивен косе еламалип са тин. Ойон
     анаро совизоцюч деке есе дажочи. Екечовено лета рак оня онал."
 
 
