@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.description = %q{Vydumschik creates fake Cyrillic names, surnames, full names, and lipsum-like text}
 
   s.add_development_dependency "rake"
+  s.add_development_dependency "rspec"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
