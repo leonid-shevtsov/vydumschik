@@ -1,1 +1,2 @@
 require 'vydumschik'
+require 'rspec'
