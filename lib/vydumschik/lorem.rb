@@ -35,7 +35,7 @@ module Vydumschik
     # Returns a random word. Passing a previous word affects the first character
     def self.word(previous_word=nil)
       if previous_word
-        last_char = previous_word[-2,2]
+        last_char = previous_word[-2, 2]
         if CONSONANTS.include?(last_char)
           next_char = VOWELS_NORMALIZED
         else
@@ -70,6 +70,13 @@ module Vydumschik
         sentences << sentence
       end
       sentences.join(' ')
+    end
+
+    def self.text(char_size)
+      text = ''
+      text += paragraph while text.size < char_size
+      text.slice!(char_size..text.size)
+      text
     end
 
     private
